@@ -556,25 +556,6 @@ body,
   background-color: transparent;
 }
 
-.wrapper_c19a55 {
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
-  border-radius: 0 !important;
-}
-
-.wrapper_c19a55.groupStart__5126c {
-  border-top-left-radius: var(--message-radius) !important;
-  border-top-right-radius: var(--message-radius) !important;
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-  margin-block-start: 0 !important;
-}
-
-.wrapper_c19a55:not(.groupStart__5126c):last-of-type {
-  border-bottom-left-radius: var(--message-radius) !important;
-  border-bottom-right-radius: var(--message-radius) !important;
-}
-
 /*
  *
  *	VOICE & VIDEO CALL
@@ -6376,6 +6357,25 @@ body,
 .align-chat-input .button__24af7:not(.noHover__24af7),
 .align-chat-input .emojiButton__04eed {
   border-radius: var(--space-16);
+}
+
+.wrapper_c19a55 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  border-radius: 0 !important;
+}
+
+.wrapper_c19a55.groupStart__5126c {
+  border-top-left-radius: var(--message-radius) !important;
+  border-top-right-radius: var(--message-radius) !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  margin-block-start: 0 !important;
+}
+
+.wrapper_c19a55:not(.groupStart__5126c):last-of-type {
+  border-bottom-left-radius: var(--message-radius) !important;
+  border-bottom-right-radius: var(--message-radius) !important;
 }
 
 /*# sourceMappingURL=main.css.map */
