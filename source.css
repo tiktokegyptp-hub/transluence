@@ -567,12 +567,16 @@ body,
   margin-block-start: 0 !important;
 }
 
-.wrapper_c19a55:has(+ .wrapper_c19a55:not(.groupStart__5126c)) {
-  border-radius: 0 0 var(--message-radius) var(--message-radius) !important;
+.wrapper_c19a55:not(.groupStart__5126c) {
+  border-radius: 0 !important;
 }
 
-.wrapper_c19a55.groupStart__5126c:has(+ .wrapper_c19a55.groupStart__5126c) {
+.wrapper_c19a55.groupStart__5126c:not(:has(+ .wrapper_c19a55:not(.groupStart__5126c))) {
   border-radius: var(--message-radius) !important;
+}
+
+.wrapper_c19a55:not(.groupStart__5126c):last-child {
+  border-radius: 0 0 var(--message-radius) var(--message-radius) !important;
 }
 
 /*
