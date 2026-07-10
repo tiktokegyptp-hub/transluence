@@ -563,20 +563,16 @@ body,
 }
 
 .wrapper_c19a55.groupStart__5126c {
-  border-radius: var(--message-radius) var(--message-radius) 0 0 !important;
+  border-top-left-radius: var(--message-radius) !important;
+  border-top-right-radius: var(--message-radius) !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
   margin-block-start: 0 !important;
 }
 
-.wrapper_c19a55:not(.groupStart__5126c) {
-  border-radius: 0 !important;
-}
-
-.wrapper_c19a55.groupStart__5126c:not(:has(+ .wrapper_c19a55:not(.groupStart__5126c))) {
-  border-radius: var(--message-radius) !important;
-}
-
-.wrapper_c19a55:not(.groupStart__5126c):last-child {
-  border-radius: 0 0 var(--message-radius) var(--message-radius) !important;
+.wrapper_c19a55:not(.groupStart__5126c):last-of-type {
+  border-bottom-left-radius: var(--message-radius) !important;
+  border-bottom-right-radius: var(--message-radius) !important;
 }
 
 /*
