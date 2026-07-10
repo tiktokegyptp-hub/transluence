@@ -6359,18 +6359,18 @@ body,
   border-radius: var(--space-16);
 }
 
-.wrapper_c19a55 {
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
-  border-radius: 0 !important;
-}
-
 .wrapper_c19a55.groupStart__5126c {
+  margin-block-start: 8px !important;
   border-top-left-radius: var(--message-radius) !important;
   border-top-right-radius: var(--message-radius) !important;
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+}
+
+.wrapper_c19a55:not(.groupStart__5126c) {
   margin-block-start: 0 !important;
+  border-radius: 0 !important;
+  border-top: 1px solid rgba(255,255,255,0.05) !important;
 }
 
 .wrapper_c19a55:not(.groupStart__5126c):last-of-type {
